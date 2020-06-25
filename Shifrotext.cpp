@@ -530,7 +530,7 @@ private:
 			}
 		}
 		bool trigger = false;
-		string text; //35--14-- (-5)
+		string text; 
 		for (int a = 32; ; a++)
 		{
 			if (a == cypher.size() - 2)
@@ -800,7 +800,7 @@ public:
 			{
 				alphStr.push_back(alphDoc[a]);
 			}
-		} //alphsize = 51
+		} 
 		string key;
 		int sym;
 		bool trigger = false;
