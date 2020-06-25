@@ -64,11 +64,6 @@ public:
 	{
 		bool trigger = false;
 		vector<int> key;
-		for (int a = 0; a < text.size(); a++)
-			key.push_back(' ');
-		cout << "Key is generating. Please wait...";
-		int time = rand() % 2000 + 1000;
-		Sleep(time);
 		for (int a = 0; a < key.size(); a++)
 		{
 			int num = rand() % key.size();
